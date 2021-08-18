@@ -17,6 +17,33 @@ $color-orange: #ff7948;
   max-width: 1440px;
   margin: auto;
 
+  .footnote {
+    text-align:center;
+    img {
+      height: 2rem;
+      // width: 2rem;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .companies {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+
+    .company {
+      // margin-right: 10px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+
   .subheading {
     color: $color-orange;
     margin-bottom: 0.7rem;
