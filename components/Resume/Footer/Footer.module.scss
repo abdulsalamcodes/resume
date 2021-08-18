@@ -1,0 +1,33 @@
+$color-orange: #ff7948;
+
+.footer {
+  width: 100%;
+  padding-bottom: 2rem;
+
+  hr {
+    margin-bottom: .5rem;
+    opacity: 0.1;
+    border: 1px solid #212121;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 13px;
+    font-weight: 400;
+    gap: 1rem;
+
+      a {
+          text-decoration: underline;
+      }
+
+      span {
+          color: $color-orange;
+          display: inline-block;
+          padding: 0 3px;
+          font-weight: 600;
+      }
+  }
+}
