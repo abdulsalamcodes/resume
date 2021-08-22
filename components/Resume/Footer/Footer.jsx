@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={styles.links}>
       <div>
         Official Website:
-        <a href="https://www.abdulsalam.netlify.app">
+        <a href="https://abdulsalam.netlify.app/">
           <span>www.abdulsalam.netlify.app</span>
         </a>
       </div>
